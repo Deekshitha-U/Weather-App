@@ -755,6 +755,30 @@
   font-size: 13px;
 }
 
+
+.search-error-state {
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 32px 20px;
+  text-align: center;
+}
+
+.search-error-state h2 {
+  margin: 0;
+}
+
+.search-error-state p {
+  margin: 0;
+}
+
+.search-error-state .section-kicker {
+  letter-spacing: 0.14em;
+}
+
 @keyframes fade-up {
   from {
     opacity: 0;
